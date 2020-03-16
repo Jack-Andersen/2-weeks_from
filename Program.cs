@@ -12,8 +12,8 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
         static void Main(string[] args)
         {
 
-            /*Hurdle Jump!
-            
+            /*Hurdle Jump! <--- 1st
+             
             Create a function that takes an array of hurdle heights and a jumper's jump height, and
             determine whether or not the hurdler can clear all the hurdles.
 
@@ -52,7 +52,8 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
             //Console.ReadKey();
 
 
-            /*Convert Number to Corresponding Month Name!
+
+            /*Convert Number to Corresponding Month Name! <--- 2nd
              
             Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
             For example, if you're given 3 as input, your function should return "March", because March is the 3rd month.
@@ -73,19 +74,55 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             //Console.ReadKey();
 
-            /* Count Instances of a Character in a String!
+
+
+            /* Count Instances of a Character in a String! <--- 3rd
              
-             Create a function that takes a character and a string as arguments and returns the number of times the character is found in the string.
+            Create a function that takes a character and a string as arguments and returns the number of times the character is found in the string.
              
-             CharCount("a", "edabit") ➞ 1
+            CharCount("a", "edabit") ➞ 1
 
-             CharCount("c", "Chamber of secrets") ➞ 1
+            CharCount("c", "Chamber of secrets") ➞ 1
 
-             CharCount("b", "big fat bubble") ➞ 4
+            CharCount("b", "big fat bubble") ➞ 4
 
-             Your output must be case-sensitive (see second example).
+            Your output must be case-sensitive (see second example).
 
-             */
+            */
+
+            //char myChar = 'a';
+
+            //string str = "aaa";
+
+            //int count = 0;
+
+            //foreach (char c in str)
+            //{
+            //    if (c == myChar) count++;
+            //}
+
+            //Console.WriteLine(count);
+
+            //Console.ReadKey();
+
+
+
+            /* Absolute Sum! <--- 4th
+              
+            Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+
+            getAbsSum([2, -1, 4, 8, 10]) ➞ 25
+
+            getAbsSum([-3, -4, -10, -2, -3]) ➞ 22
+
+            getAbsSum([2, 4, 6, 8, 10]) ➞ 30
+
+            getAbsSum([-1]) ➞ 1
+
+            The term "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
+
+            */
+
 
 
 
