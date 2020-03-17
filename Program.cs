@@ -144,7 +144,38 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Smaller String Number <--- 5th
+            /* Absolute Sum! <--- 5th
+
+            Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+
+            getAbsSum([2, -1, 4, 8, 10]) ➞ 25
+
+            getAbsSum([-3, -4, -10, -2, -3]) ➞ 22
+
+            getAbsSum([2, 4, 6, 8, 10]) ➞ 30
+
+            getAbsSum([-1]) ➞ 1
+
+            The term "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
+
+            */
+
+            //int[] arr = { 2, 0, -1, 10, -2 };
+
+            //int sum = 0;
+
+            //foreach (int value in arr)
+            //{
+            //    sum += Math.Abs(value);
+            //}
+
+            //Console.WriteLine(sum);
+
+            //Console.ReadKey();
+
+
+
+            /* Smaller String Number <--- 6th
 
             Create a function that returns the smaller number.
 
@@ -161,13 +192,27 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            string n1 = "100";
+            string n2 = "23";
 
+            int myOutput;
+            myOutput = string.Compare(n1, n2);
+
+            if (myOutput <= 0)
+            {
+                Console.WriteLine(n2);
+            }
+
+            else
+            {
+                Console.WriteLine(n1);
+            }
 
             Console.ReadKey();
 
 
 
-            /* To the Power of____! <--- 6th
+            /* To the Power of____! <--- 7th
              
             Create a function that takes a base number and an exponent number and returns the calculation.
 
@@ -181,35 +226,6 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
             Don't forget to return the result.
 
             */
-
-
-
-
-
-            /* Absolute Sum! <--- 7th
-              
-            Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
-
-            getAbsSum([2, -1, 4, 8, 10]) ➞ 25
-
-            getAbsSum([-3, -4, -10, -2, -3]) ➞ 22
-
-            getAbsSum([2, 4, 6, 8, 10]) ➞ 30
-
-            getAbsSum([-1]) ➞ 1
-
-            The term "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
-
-            */
-
-            //int[] arr = {2, 0, -1, 10, -2};
-
-            //foreach (int value in arr)
-            //{
-            //    Console.WriteLine(Math.Abs(value));
-            //}
-
-            //Console.ReadKey();??
 
         }
     }
