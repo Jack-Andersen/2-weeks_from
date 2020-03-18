@@ -175,7 +175,36 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Smaller String Number <--- 6th
+            /* Multiply by Length! <--- 6th
+             
+            Create a function to multiply all of the values in an array by the amount of values in the given array.
+
+            MultiplyByLength([2, 3, 1, 0]) ➞ [8, 12, 4, 0]
+
+            MultiplyByLength([4, 1, 1]) ➞ ([12, 3, 3])
+
+            MultiplyByLength([1, 0, 3, 3, 7, 2, 1]) ➞  [7, 0, 21, 21, 49, 14, 7]
+
+            MultiplyByLength([0]) ➞ ([0])
+
+            All of the values given are numbers.
+            All arrays will have at least one element.
+            Don't forget to return the result.
+
+            */
+
+            int[] array = { 1, 2, 3, 4, 5 };
+
+            foreach (int i in array)
+            {
+                Console.WriteLine(2 * i);
+            }
+
+            Console.ReadKey();
+
+
+
+            /* Smaller String Number <--- 7th
 
             Create a function that returns the smaller number.
 
@@ -192,27 +221,27 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            string n1 = "100";
-            string n2 = "23";
+            //string n1 = "100";
+            //string n2 = "23";
 
-            int myOutput;
-            myOutput = string.Compare(n1, n2);
+            //int myOutput;
+            //myOutput = string.Compare(n1, n2);
 
-            if (myOutput <= 0)
-            {
-                Console.WriteLine(n2);
-            }
+            //if (myOutput <= 0)
+            //{
+            //    Console.WriteLine(n2);
+            //}
 
-            else
-            {
-                Console.WriteLine(n1);
-            }
+            //else
+            //{
+            //    Console.WriteLine(n1);
+            //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
 
-            /* To the Power of____! <--- 7th
+            /* To the Power of____! <--- 8th
              
             Create a function that takes a base number and an exponent number and returns the calculation.
 
@@ -226,6 +255,20 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
             Don't forget to return the result.
 
             */
+
+            //long result, Number1, Number2, N1, N2;
+
+            //Number1 = 10;
+            //Number2 = 10;
+
+            //N1 = Convert.ToInt64(Number1);
+            //N2 = Convert.ToInt64(Number2);
+
+            //result = Math.Pow(Number1, Number2);
+
+            //Console.WriteLine(result);
+
+            //Console.ReadKey();
 
         }
     }
