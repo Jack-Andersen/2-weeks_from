@@ -175,7 +175,37 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Multiply by Length! <--- 6th
+            /* How Many Vowels? <--- 6th
+             
+            Create a function that takes a string and returns the number (count) of vowels contained within it.
+
+            CountVowels("Celebration") ➞ 5
+
+            CountVowels("Palm") ➞ 1
+
+            CountVowels("Prediction") ➞ 4
+
+            a, e, i, o, u are considered vowels (not y).
+            All test cases are one word and only contain letters.
+
+            */
+
+            //string str = "abcde";
+
+            //int count = 0;
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (str[i] == 'a' || str[i] == 'i' || str[i] == 'e' || str[i] == 'u' || str[i] == 'o')
+            //        count++;
+            //}
+
+            //Console.WriteLine(count);
+
+            //Console.ReadLine();
+
+
+
+            /* Multiply by Length! <--- 7th
              
             Create a function to multiply all of the values in an array by the amount of values in the given array.
 
@@ -193,18 +223,23 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            int[] array = { 1, 2, 3, 4, 5 };
+            int[] arr = { 1, 2, 3, 4, 5 };
 
-            foreach (int i in array)
+            for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine(2 * i);
+                arr[i] *= arr.Length;
+            }
+
+            foreach (int value in arr)
+            {
+                Console.WriteLine(value);
             }
 
             Console.ReadKey();
 
 
 
-            /* Smaller String Number <--- 7th
+            /* Smaller String Number <--- 8th
 
             Create a function that returns the smaller number.
 
@@ -241,7 +276,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* To the Power of____! <--- 8th
+            /* To the Power of____! <--- 9th
              
             Create a function that takes a base number and an exponent number and returns the calculation.
 
