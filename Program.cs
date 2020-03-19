@@ -223,19 +223,19 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            int[] arr = { 1, 2, 3, 4, 5 };
+            //int[] arr = { 1, 2, 3, 4, 5 };
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                arr[i] *= arr.Length;
-            }
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] *= arr.Length;
+            //}
 
-            foreach (int value in arr)
-            {
-                Console.WriteLine(value);
-            }
+            //foreach (int value in arr)
+            //{
+            //   Console.WriteLine(value);
+            //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
 
@@ -259,17 +259,16 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
             //string n1 = "100";
             //string n2 = "23";
 
-            //int myOutput;
-            //myOutput = string.Compare(n1, n2);
+            //if (n1.Length < n2.Length || n1.Length == n2.Length)
 
-            //if (myOutput <= 0)
             //{
-            //    Console.WriteLine(n2);
+            //    Console.WriteLine(n1);
             //}
 
             //else
+
             //{
-            //    Console.WriteLine(n1);
+            //    Console.WriteLine(n2);
             //}
 
             //Console.ReadKey();
@@ -291,19 +290,19 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            //long result, Number1, Number2, N1, N2;
+            long result, Number1, Number2, N1, N2;
 
-            //Number1 = 10;
-            //Number2 = 10;
+            Number1 = 10;
+            Number2 = 10;
 
-            //N1 = Convert.ToInt64(Number1);
-            //N2 = Convert.ToInt64(Number2);
+            N1 = Convert.ToInt64(Number1);
+            N2 = Convert.ToInt64(Number2);
 
-            //result = Math.Pow(Number1, Number2);
+            result = Math.Pow(Number1, Number2);
 
-            //Console.WriteLine(result);
+            Console.WriteLine(result);
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
         }
     }
