@@ -290,19 +290,69 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            long result, Number1, Number2, N1, N2;
+            //double Number1, Number2;
 
-            Number1 = 10;
-            Number2 = 10;
+            //Number1 = 10;
+            //Number2 = 10;
 
-            N1 = Convert.ToInt64(Number1);
-            N2 = Convert.ToInt64(Number2);
+            //double result = 0;
 
-            result = Math.Pow(Number1, Number2);
+            //result = Math.Pow(Number1, Number2);
 
-            Console.WriteLine(result);
+            //long Result = Convert.ToInt64(result);
 
-            Console.ReadKey();
+            //Console.WriteLine(Result);
+
+            //Console.ReadKey();
+
+
+
+            /* Find the Smallest and Biggest Numbers! <--- 10th
+              
+            Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+
+            FindMinMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+
+            FindMinMax([2334454, 5]) ➞ [5, 2334454]
+
+            FindMinMax([1]) ➞ [1, 1]
+
+            All test arrays will have at least one element and are valid.
+             
+            */
+
+            //int[] arr = { 1, 2, 3, 4, 5};
+
+            //for (int i = 0; i < arr.Length; i++)
+
+            //Console.WriteLine(arr.Min());
+            //Console.WriteLine(arr.Max());
+
+            //Console.ReadKey();
+
+
+
+            /* Sort Numbers in Ascending Order! <--- 11th
+              
+            Create a function that takes an array of numbers and returns a new array, sorted in ascending order (smallest to biggest).
+
+            Sort the numbers array in ascending order.
+            If the function's argument is null, an empty array, or undefined; return an empty array.
+            Return a new array of sorted numbers.
+
+            SortNumsAscending([1, 2, 10, 50, 5]) ➞ [1, 2, 5, 10, 50]
+
+            SortNumsAscending([80, 29, 4, -95, -24, 85]) ➞ [-95, -24, 4, 29, 80, 85]
+
+            SortNumsAscending(null) ➞ []
+
+            SortNumsAscending([]) ➞ []
+
+            Test input can be positive or negative.
+
+            */
+
+            int[] arr = { 1, 2, 3, 4, 5 };
 
         }
     }
