@@ -352,7 +352,65 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            int[] arr = { 1, 2, 3, 4, 5 };
+            //int[] arr = new int[] { 1, 2, 3, 4, 5 };
+
+            //Array.Sort(arr);
+
+            //foreach (int i in arr)
+            //{
+            //    Console.WriteLine(i + "");
+            //}
+
+            //Console.ReadKey();
+
+
+
+            /* Return the Factorial! <--- 12th
+              
+            Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.
+
+            Factorial(3) ➞ 6
+
+            Factorial(5) ➞ 120
+
+            actorial(13) ➞ 6227020800
+
+            Assume all inputs are greater than or equal to 0.
+
+            */
+
+            //int number = 5, result;
+
+            //fact = number;
+
+            //for (int i = number - 1; i >= 1; i--)
+            //{
+            //    result = result * i;
+            //}
+
+            //Console.WriteLine(result);
+
+            //Console.ReadKey();
+
+
+
+            /* Check if a String Contains only Identical Characters! <--- 13th
+              
+            Write a function that returns true if all characters in a string are identical and false otherwise.
+
+            isIdentical("aaaaaa") ➞ true
+
+            isIdentical("aabaaa") ➞ false
+
+            isIdentical("ccccca") ➞ false
+
+            isIdentical("kk") ➞ true
+
+            N/A
+
+            */
+
+
 
         }
     }
