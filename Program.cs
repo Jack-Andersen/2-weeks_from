@@ -467,9 +467,66 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            string str = "Hello World";
+            //string str = "Hello World";
 
-            
+            //char[] chars = str.ToCharArray();
+
+            //Array.Reverse(chars);
+
+            //Console.WriteLine(string.Join("", chars));
+
+            //Console.ReadKey();
+
+
+
+            /* Calculate the Mean! <--- 16th
+             
+            Create a function that takes an array of numbers and returns the mean value.
+
+            Mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3]) ➞ 2.55
+
+            Mean([2, 3, 2, 3]) ➞ 2.50
+
+            Mean([3, 3, 3, 3, 3]) ➞ 3.00
+
+            Round to two decimal places.
+            You can expect a number ranging from 0 to 10,000.
+
+            */
+
+            //double[] arr = { 1, 1, 2, 2, 3, 3, 3 };
+
+            //double sum = 0;
+
+            //foreach (int value in arr)
+
+            //    sum += value;
+
+            //double result = (sum / arr.Length);
+
+            //Console.WriteLine(Math.Round(result, 2));
+
+            //Console.ReadKey();
+
+
+
+            /* Between Words! <--- 17th
+              
+            Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted) word is found between first and last.
+
+            isBetween("apple", "banana", "azure") ➞ true
+
+            isBetween("monk", "monument", "monkey") ➞ true
+
+            isBetween("bookend", "boolean", "boost") ➞ false
+
+            All letters will be in lowercase.
+            All three words will be different.
+            Remember the string word is in the middle.
+
+            */
+
+
 
         }
     }
