@@ -410,7 +410,66 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string word = "abaa";
+            //int result = word.Length;
 
+            //for (int i = 1; i < result; i++)
+            //{
+            //    if (word[i] != word[0])
+            //    {
+            //        Console.WriteLine(false);
+            //    }
+            //}
+
+            //    Console.WriteLine(true);
+
+            //Console.ReadKey();
+
+
+
+            /* Shuffle the Name! <--- 14th
+             
+            Create a function that accepts a string (of a persons first and last name) and returns a string with the first and last name swapped.
+
+            NameShuffle("Donald Trump") ➞ "Trump Donald"
+
+            NameShuffle("Rosie O'Donnell") ➞ "O'Donnell Rosie"
+
+            NameShuffle("Seymour Butts") ➞ "Butts Seymour"
+
+            There will be exactly one space between the first and last name.
+
+            */
+
+            //string str = "Donald Trump";
+
+            //string[] array = str.Split(new char[] { ' ' });
+
+            //Array.Reverse(array);
+
+            //Console.WriteLine(string.Join(" ", array));
+
+            //Console.ReadKey();
+
+
+
+            /* Reverse the Order of a String! <--- 15th
+             
+            Create a function that takes a string as its argument and returns the string in reversed order.
+
+            Reverse("Hello World") ➞ "dlroW olleH"
+
+            Reverse("The quick brown fox.") ➞ ".xof nworb kciuq ehT"
+
+            Reverse("Edabit is really helpful!") ➞ "!lufpleh yllaer si tibadE"
+
+            You can expect a valid string for all test cases.
+
+            */
+
+            string str = "Hello World";
+
+            
 
         }
     }
