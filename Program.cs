@@ -510,7 +510,79 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Between Words! <--- 17th
+            /* Remove Duplicates from an Array! <---17th
+             
+            Create a function that takes an array of items, removes all duplicate items and returns a new array in the same sequential order as the old array (minus duplicates).
+
+            RemoveDups([1, 0, 1, 0]) ➞ [1, 0]
+
+            RemoveDups(["The", "big", "cat"]) ➞ ["The", "big", "cat"]
+
+            RemoveDups(["John", "Taylor", "John"]) ➞ ["John", "Taylor"]
+
+            Tests contain arrays with both strings and numbers.
+            Tests are case sensitive.
+
+            */
+
+            //object[] str = { "cat, dog, dog"};
+
+
+            //foreach (string item in str)
+            //{
+
+            //    str.Distinct().ToArray();
+
+            //    Console.WriteLine(item.Distinct().ToArray());
+            //}
+
+            //Console.ReadKey();
+
+
+
+            /* Xs and Os, Nobody Knows! <--- 18th
+              
+            Create a function that takes a string, checks if it has the same number of x's and o's and returns either true or false.
+
+            Return a boolean value (true or false).
+            The string can contain any character.
+            When no x and no o are in the string, return true.
+
+            XO("ooxx") ➞ true
+
+            XO("xooxx") ➞ false
+
+            XO("ooxXm") ➞ true
+            // Case insensitive.
+
+            XO("zpzpzpp") ➞ true
+            // Returns true if no x and o.
+
+            XO("zzoo") ➞ false
+
+            Remember to return true if there aren't any x's or o's.
+            Must be case insensitive.
+
+            */
+
+            //string str = "xxooX";
+
+            //int xCount = 0;
+            //int oCount = 0;
+            //foreach (char c in str)
+
+            //{
+            //    if (c == 'x' || c == 'X') { xCount += 1; }
+            //    if (c == 'o' || c == 'O') { oCount += 1; }
+            //}
+
+            //Console.WriteLine((xCount == oCount) ? true : false);
+
+            //Console.ReadKey();
+
+
+
+            /* Between Words! <--- 19th
               
             Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted) word is found between first and last.
 
@@ -526,7 +598,28 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            string str = "Hvalp, hund, kat";
 
+            int num = str.Length;
+
+            char[] c = new char[num];
+
+            for (int i = 0; i < num; i++)
+            {
+                c[i] = str[i];
+            }
+
+            //Array.Sort(c);
+
+            for (int i = 0; i < num; i++)
+            {
+                if (c[i] != str[i])
+                { Console.WriteLine(false); }
+            }
+
+            Console.WriteLine(true);
+
+            Console.ReadKey();
 
         }
     }
