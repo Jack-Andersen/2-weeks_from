@@ -596,8 +596,22 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int number1 = 0, number2 = 2, number3 = 3;
 
+            //if (number1 == number2 && number2 == number3)
+            //{
+            //    Console.WriteLine(3);
+            //}
+            //else if (number1 == number2 || number2 == number3 || number1 == number3)
+            //{
+            //    Console.WriteLine(2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(0);
+            //}
 
+            //Console.ReadKey();
 
 
 
@@ -615,18 +629,12 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
-            string phrase = "https://www.reddit.com/r/mildlyinteresting/";
+            //string link = "https://www.reddit.com/r/mildlyinteresting/";
 
-            char[] charsToTrim = { ',', '.', ' ', ':', '/' };
+            //String result = link.TrimEnd('/');
+            //Console.WriteLine(result.Substring(result.LastIndexOf('/') + 1));
 
-            string[] words = phrase.Split();
-
-            foreach (string word in words)
-            {
-                Console.WriteLine(word.TrimEnd(charsToTrim));
-            }
-
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
@@ -648,15 +656,15 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
-            //string str = "abcd";
+            string str = "abcd";
 
-            //char[] a = str.ToCharArray();
+            char[] a = str.ToCharArray();
 
-            //Array.Sort(a);
+            Array.Sort(a);
 
-            //Console.WriteLine(new string(a));
+            Console.WriteLine(new string(a));
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
 
 
