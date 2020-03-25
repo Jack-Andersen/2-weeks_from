@@ -582,7 +582,85 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Between Words! <--- 19th
+            /* Equality of 3 Values! <--- 19th
+             
+            Create a function that takes three integer arguments (a, b, c) and returns the number of equal values.
+
+            Equal(3, 4, 3) ➞ 2
+
+            Equal(1, 1, 1) ➞ 3
+
+            Equal(3, 4, 1) ➞ 0
+
+            Your function must return 0, 2 or 3.
+
+            */
+
+
+
+
+
+
+            /* Retrieve the Subreddit! <--- 20th
+             
+            Create a function to extract the name of the subreddit from its URL.
+
+            SubReddit("https://www.reddit.com/r/funny/") ➞ "funny"
+
+            SubReddit("https://www.reddit.com/r/relationships/") ➞ "relationships"
+
+S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyinteresting"
+
+            N/A
+
+            */
+
+            string phrase = "https://www.reddit.com/r/mildlyinteresting/";
+
+            char[] charsToTrim = { ',', '.', ' ', ':', '/' };
+
+            string[] words = phrase.Split();
+
+            foreach (string word in words)
+            {
+                Console.WriteLine(word.TrimEnd(charsToTrim));
+            }
+
+            Console.ReadLine();
+
+
+
+            /* Alphabet Soup! <--- 21th
+             
+            Create a function that takes a string and returns a string with its letters in alphabetical order.
+
+            AlphabetSoup("hello") ➞ "ehllo"
+
+            AlphabetSoup("edabit") ➞ "abdeit"
+
+            AlphabetSoup("hacker") ➞ "acehkr"
+
+            AlphabetSoup("geek") ➞ "eegk"
+
+            AlphabetSoup("javascript") ➞ "aacijprstv"
+
+            You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.
+
+            */
+
+            //string str = "abcd";
+
+            //char[] a = str.ToCharArray();
+
+            //Array.Sort(a);
+
+            //Console.WriteLine(new string(a));
+
+            //Console.ReadKey();
+
+
+
+            /* Between Words! <--- 22th
               
             Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted) word is found between first and last.
 
@@ -598,28 +676,28 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
-            string str = "Hvalp, hund, kat";
+            //string str = "Hvalp, hund, kat";
 
-            int num = str.Length;
+            //int num = str.Length;
 
-            char[] c = new char[num];
+            //char[] c = new char[num];
 
-            for (int i = 0; i < num; i++)
-            {
-                c[i] = str[i];
-            }
+            //for (int i = 0; i < num; i++)
+            //{
+            //    c[i] = str[i];
+            //}
 
-            //Array.Sort(c);
+            ////Array.Sort(c);
 
-            for (int i = 0; i < num; i++)
-            {
-                if (c[i] != str[i])
-                { Console.WriteLine(false); }
-            }
+            //for (int i = 0; i < num; i++)
+            //{
+            //    if (c[i] != str[i])
+            //    { Console.WriteLine(false); }
+            //}
 
-            Console.WriteLine(true);
+            //Console.WriteLine(true);
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
