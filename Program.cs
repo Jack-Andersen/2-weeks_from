@@ -656,15 +656,15 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
-            string str = "abcd";
+            //string str = "hello";
 
-            char[] a = str.ToCharArray();
+            //char[] a = str.ToCharArray();
 
-            Array.Sort(a);
+            //Array.Sort(a);
 
-            Console.WriteLine(new string(a));
+            //Console.WriteLine(new string(a));
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
 
@@ -684,28 +684,35 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
-            //string str = "Hvalp, hund, kat";
+            //string word = "monk";
+            //string first = "monument";
+            //string last = "monkey";
 
-            //int num = str.Length;
-
-            //char[] c = new char[num];
-
-            //for (int i = 0; i < num; i++)
+            //String[] wordStr = new String[] { first, last, word };
+            //Array.Sort(wordStr);
+            //if (wordStr[1] == word)
             //{
-            //    c[i] = str[i];
+            //    Console.WriteLine(true);
             //}
-
-            ////Array.Sort(c);
-
-            //for (int i = 0; i < num; i++)
-            //{
-            //    if (c[i] != str[i])
-            //    { Console.WriteLine(false); }
-            //}
-
-            //Console.WriteLine(true);
+            //Console.WriteLine(false);
 
             //Console.ReadKey();
+
+
+
+            /* Letters Only! <--- 23th
+             
+            Write a function that removes any non-letters from a string, returning a well-known film title.
+             
+            LettersOnly("R!=:~0o0./c&}9k`60=y") ➞ "Rocky"
+
+            LettersOnly("^,]%4B|@56a![0{2m>b1&4i4") ➞ "Bambi"
+
+            LettersOnly("^U)6$22>8p).") ➞ "Up"
+
+            */
+
+
 
         }
     }
