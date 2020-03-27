@@ -27,7 +27,7 @@ namespace Guessing_Game
 
                 if (guess > winNum)
                 {
-                    Console.WriteLine("To high.. guess lover...");
+                    Console.WriteLine("To high.. guess lower...");
                 }
 
                 else if (guess < winNum)
