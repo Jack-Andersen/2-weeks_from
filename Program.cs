@@ -9,6 +9,41 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 {
     class Program
     {
+
+        //class Rectangle
+
+        //    // Make a Circle with OOP! <--- 24th
+        //{
+        //    public double SideA;
+        //    public double SideB;
+        //    public Rectangle(double sideA, double sideB)
+        //    {
+        //        SideA = sideA;
+        //        SideB = sideB;
+        //    }
+        //    public double GetArea()
+        //    {
+        //        return SideA * SideB;
+        //    }
+        //    public double GetPerimeter()
+        //    {
+        //        return (SideA + SideB) * 2;
+        //    }
+        //}
+
+
+        //public class Circle
+        //{
+        //    double r;
+        //    public Circle(double r)
+        //    {
+        //        this.r = r;
+        //    }
+
+        //    public double GetArea() => r * r * Math.PI;
+        //    public double GetPerimeter() => 2 * r * Math.PI;
+        //}
+
         static void Main(string[] args)
         {
 
@@ -712,6 +747,71 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string str = "^U)6$22>8p).";
+
+            //string lettersOnlyText = string.Empty;
+
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (char.IsLetter(str[i]))
+            //    {
+            //        lettersOnlyText += str[i];
+            //    }
+            //}
+
+            //Console.WriteLine(lettersOnlyText);
+
+            //Console.ReadKey();
+
+
+
+            /* Make a Circle with OOP! <--- 24th
+             
+            Your task is to create a Circle constructor that creates a circle with a radius provided by an argument. The circles constructed must have two getters GetArea() (PIr^2) and GetPerimeter() (2PI*r) which give both respective areas and perimeter (circumference).
+
+            For help with this class, I have provided you with a Rectangle constructor which you can use as a base example.
+
+            Circle circy = new Circle(11);
+            circy.GetArea();
+
+            // Should return 380.132711084365.
+
+            Circle circy = new Circle(4.44);
+            circy.GetPerimeter();
+
+            // Should return 27.897342763877365
+
+            Don't worry about floating point precision - I've factored in the chance that your answer may be more or less accurate than mine. This is more of a tutorial than a challenge so the topic covered may be considered advanced, yet the challenge is more simple - so if this challenge gets labelled as easy, don't worry too much.
+
+            */
+
+            //var q = new Circle(4.44);
+            //Console.WriteLine(q.GetArea());
+            //Console.WriteLine(q.GetPerimeter());
+
+            //Console.ReadKey();
+
+
+
+            /* Valid Zip Code! <--- 25th
+             
+            Zip codes consist of 5 consecutive digits. Given a string, write a function to determine whether the input is a valid zip code. A valid zip code is as follows:
+
+            Must only contain numbers (no non-digits allowed).
+            Must not contain any spaces.
+            Must not be greater than 5 digits in length.
+
+            IsValid("59001") ➞ true
+
+            IsValid("853a7") ➞ false
+
+            IsValid("732 32") ➞ false
+
+            IsValid("393939") ➞ false
+
+            N/A
+
+            */
 
 
         }
