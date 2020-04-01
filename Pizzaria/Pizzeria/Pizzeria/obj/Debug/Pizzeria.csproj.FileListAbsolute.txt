@@ -7,4 +7,4 @@ D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.csproj.GenerateResou
 D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.exe
 D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.pdb
-D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.Form1.resources
+D:\Visual Studio\Saves\Pizzeria\Pizzeria\obj\Debug\Pizzeria.Panel.resources
