@@ -75,7 +75,8 @@ namespace Pizzeria
             //Main 3 Pizza's
 
             double Total = 0;
-            double Antal;
+            double Antal1;
+            double Antal2;
 
             if (radioButton1.Checked == true)
             {
@@ -95,6 +96,23 @@ namespace Pizzeria
             if (Large.Checked == true)
             {
                 Total += Total + 65;
+            }
+
+            //Drikkevare.
+
+            if (radioButton16.Checked == true)
+            {
+                Total += 3.50;
+            }
+
+            if (radioButton17.Checked == true)
+            {
+                Total += 10;
+            }
+
+            if (radioButton18.Checked == true)
+            {
+                Total += 10;
             }
 
             //Make self Pizza.
@@ -119,18 +137,21 @@ namespace Pizzeria
                 Total += 13.75;
             }
 
-            for (double makeSelf = 0; makeSelf < 4;)
-            {
-                if (checkBox1.Checked || checkBox2.Checked || checkBox3.Checked || checkBox4.Checked || checkBox5.Checked || checkBox6.Checked || checkBox7.Checked || checkBox8.Checked || checkBox9.Checked || checkBox10.Checked)
-                {
-                    Total += 5;
-                }
-            }
+            //for (double makeSelf = 0; makeSelf < 4;)
+            //{
+            //    if (checkBox1.Checked || checkBox2.Checked || checkBox3.Checked || checkBox4.Checked || checkBox5.Checked || checkBox6.Checked || checkBox7.Checked || checkBox8.Checked || checkBox9.Checked || checkBox10.Checked)
+            //    {
+            //        Total += 5;
+            //    }
+            //}
 
             //Operations.
 
-            Antal = Convert.ToDouble(nrAntal.Value);
+            Antal1 = Convert.ToDouble(nrAntal.Value);
             Total = Convert.ToDouble(nrAntal.Value) * Total;
+
+            Antal2 = Convert.ToDouble(drikkeAntal.Value);
+            Total = Convert.ToDouble(drikkeAntal.Value) * Total;
 
             //Imprestion.
 
@@ -157,6 +178,9 @@ namespace Pizzeria
             radioButton13.Checked = false;
             radioButton14.Checked = false;
             radioButton15.Checked = false;
+            radioButton16.Checked = false;
+            radioButton17.Checked = false;
+            radioButton18.Checked = false;
             checkBox1.Checked = false;
             checkBox2.Checked = false;
             checkBox3.Checked = false;
