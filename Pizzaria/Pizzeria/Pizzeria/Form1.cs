@@ -70,92 +70,120 @@ namespace Pizzeria
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private int checkCounter = 0;
+
+        private void OnCheckedChanged(CheckBox box)
+        {
+            // Increase or decrease the check counter
+
+            if (box.Checked == true)
+                checkCounter++;
+
+            else
+                checkCounter = 0;
+
+            // prevent checking
+
+            if (checkCounter > 4)
+            {
+                MessageBox.Show("You can only choose 4 toppings");
+                checkCounter = 0;
+            }
+        }
+
+            private void button1_Click(object sender, EventArgs e)
         {
             //Main 3 Pizza's
 
-            double Total = 0;
+            double result;
+            double Total1 = 0;
+            double Total2 = 0;
             double Antal1;
             double Antal2;
 
             if (radioButton1.Checked == true)
             {
-                Total += 65;
+                Total1 += 65;
             }
 
             if (radioButton2.Checked == true)
             {
-                Total += 75;
+                Total1 += 75;
             }
 
             if (radioButton3.Checked == true)
             {
-                Total += 65;
+                Total1 += 65;
             }
 
             if (Large.Checked == true)
             {
-                Total += Total + 65;
+                Total1 += Total1 + 65;
             }
 
             //Drikkevare.
 
             if (radioButton16.Checked == true)
             {
-                Total += 3.50;
+                Total2 += 3.50;
             }
 
             if (radioButton17.Checked == true)
             {
-                Total += 10;
+                Total2 += 10;
             }
 
             if (radioButton18.Checked == true)
             {
-                Total += 10;
+                Total2 += 10;
             }
 
             //Make self Pizza.
 
             if (radioButton4.Checked || radioButton5.Checked || radioButton6.Checked == true)
             {
-                Total += 13.75;
+                Total1 += 13.75;
             }
 
             if (radioButton7.Checked || radioButton8.Checked || radioButton9.Checked == true)
             {
-                Total += 13.75;
+                Total1 += 13.75;
             }
 
             if (radioButton10.Checked || radioButton11.Checked || radioButton12.Checked == true)
             {
-                Total += 13.75;
+                Total1 += 13.75;
             }
 
             if (radioButton13.Checked || radioButton14.Checked || radioButton15.Checked == true)
             {
-                Total += 13.75;
+                Total1 += 13.75;
             }
 
-            //for (double makeSelf = 0; makeSelf < 4;)
-            //{
-            //    if (checkBox1.Checked || checkBox2.Checked || checkBox3.Checked || checkBox4.Checked || checkBox5.Checked || checkBox6.Checked || checkBox7.Checked || checkBox8.Checked || checkBox9.Checked || checkBox10.Checked)
-            //    {
-            //        Total += 5;
-            //    }
-            //}
+                OnCheckedChanged(checkBox1);
+                OnCheckedChanged(checkBox2);
+                OnCheckedChanged(checkBox3);
+                OnCheckedChanged(checkBox4);
+                OnCheckedChanged(checkBox5);
+                OnCheckedChanged(checkBox6);
+                OnCheckedChanged(checkBox7);
+                OnCheckedChanged(checkBox8);
+                OnCheckedChanged(checkBox9);
+                OnCheckedChanged(checkBox10);
 
             //Operations.
 
             Antal1 = Convert.ToDouble(nrAntal.Value);
-            Total = Convert.ToDouble(nrAntal.Value) * Total;
+            Total1 = Convert.ToDouble(nrAntal.Value) * Total1;
 
             Antal2 = Convert.ToDouble(drikkeAntal.Value);
-            Total = Convert.ToDouble(drikkeAntal.Value) * Total;
+            Total2 = Convert.ToDouble(drikkeAntal.Value) * Total2;
+
+            result = Total1 + Total2;
 
             //Imprestion.
 
-            txtTotal.Text = Total.ToString("c2");
+            txtTotal.Text = result.ToString("c2");
 
         }
 
@@ -163,6 +191,7 @@ namespace Pizzeria
         {
             txtTotal.Clear();
             nrAntal.Value = 1;
+            drikkeAntal.Value = 1;
             radioButton1.Checked = false;
             radioButton2.Checked = false;
             radioButton3.Checked = false;
