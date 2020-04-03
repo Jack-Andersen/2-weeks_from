@@ -76,12 +76,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Next = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.drikkeAntal = new System.Windows.Forms.NumericUpDown();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nrAntal)).BeginInit();
@@ -93,9 +94,9 @@
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.drikkeAntal)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -189,6 +190,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.textBox6);
             this.groupBox2.Controls.Add(this.nrAntal);
             this.groupBox2.Location = new System.Drawing.Point(103, 297);
             this.groupBox2.Name = "groupBox2";
@@ -614,51 +616,6 @@
             this.panel1.Size = new System.Drawing.Size(776, 426);
             this.panel1.TabIndex = 10;
             // 
-            // radioButton16
-            // 
-            this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(12, 19);
-            this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(89, 17);
-            this.radioButton16.TabIndex = 10;
-            this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "Vand = 3.50,-";
-            this.radioButton16.UseVisualStyleBackColor = true;
-            // 
-            // radioButton17
-            // 
-            this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(12, 42);
-            this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(86, 17);
-            this.radioButton17.TabIndex = 11;
-            this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "Kaffe 10.00,-";
-            this.radioButton17.UseVisualStyleBackColor = true;
-            // 
-            // radioButton18
-            // 
-            this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(12, 65);
-            this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(109, 17);
-            this.radioButton18.TabIndex = 12;
-            this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "Coca cola 10.00,-";
-            this.radioButton18.UseVisualStyleBackColor = true;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.radioButton16);
-            this.groupBox9.Controls.Add(this.radioButton18);
-            this.groupBox9.Controls.Add(this.radioButton17);
-            this.groupBox9.Location = new System.Drawing.Point(411, 58);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(136, 109);
-            this.groupBox9.TabIndex = 13;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Drikkevare (type)";
-            // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.drikkeAntal);
@@ -681,6 +638,60 @@
             0,
             0});
             // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.radioButton16);
+            this.groupBox9.Controls.Add(this.radioButton18);
+            this.groupBox9.Controls.Add(this.radioButton17);
+            this.groupBox9.Location = new System.Drawing.Point(411, 58);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(136, 109);
+            this.groupBox9.TabIndex = 13;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Drikkevare (type)";
+            // 
+            // radioButton16
+            // 
+            this.radioButton16.AutoSize = true;
+            this.radioButton16.Location = new System.Drawing.Point(12, 19);
+            this.radioButton16.Name = "radioButton16";
+            this.radioButton16.Size = new System.Drawing.Size(89, 17);
+            this.radioButton16.TabIndex = 10;
+            this.radioButton16.TabStop = true;
+            this.radioButton16.Text = "Vand = 3.50,-";
+            this.radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.AutoSize = true;
+            this.radioButton18.Location = new System.Drawing.Point(12, 65);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(109, 17);
+            this.radioButton18.TabIndex = 12;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.Text = "Coca cola 10.00,-";
+            this.radioButton18.UseVisualStyleBackColor = true;
+            // 
+            // radioButton17
+            // 
+            this.radioButton17.AutoSize = true;
+            this.radioButton17.Location = new System.Drawing.Point(12, 42);
+            this.radioButton17.Name = "radioButton17";
+            this.radioButton17.Size = new System.Drawing.Size(86, 17);
+            this.radioButton17.TabIndex = 11;
+            this.radioButton17.TabStop = true;
+            this.radioButton17.Text = "Kaffe 10.00,-";
+            this.radioButton17.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(11, 70);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(177, 20);
+            this.textBox6.TabIndex = 15;
+            this.textBox6.Text = "Buy 3 and get the 3rd one for free!!";
+            // 
             // Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -694,6 +705,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nrAntal)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -710,10 +722,10 @@
             this.groupBox5.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.drikkeAntal)).EndInit();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -774,6 +786,7 @@
         private System.Windows.Forms.RadioButton radioButton16;
         private System.Windows.Forms.RadioButton radioButton18;
         private System.Windows.Forms.RadioButton radioButton17;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 

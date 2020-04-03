@@ -80,7 +80,7 @@ namespace Pizzeria
                 checkCounter++;
 
             else
-                checkCounter = 0;
+                checkCounter = 0; 
 
             // prevent checking
 
@@ -100,6 +100,12 @@ namespace Pizzeria
             double Total2 = 0;
             double Antal1;
             double Antal2;
+
+            double pizzaCount = Convert.ToDouble(nrAntal.Value);
+            double discountPercent;
+            double discount;
+            double realTotal = 0;
+            double pris;
 
             if (radioButton1.Checked == true)
             {
@@ -171,7 +177,66 @@ namespace Pizzeria
                 OnCheckedChanged(checkBox9);
                 OnCheckedChanged(checkBox10);
 
+            if (checkBox1.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox2.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox3.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox4.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox5.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox6.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox7.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox8.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox9.Checked == true)
+            {
+                Total1 += 5;
+            }
+
+            if (checkBox10.Checked == true)
+            {
+                Total1 += 5;
+            }
+
             //Operations.
+
+            if (pizzaCount == 3)
+            {
+                discountPercent = 0;
+                discount = Total1 * discountPercent;
+                realTotal = Total1 - discount;
+            }
+
+            
 
             Antal1 = Convert.ToDouble(nrAntal.Value);
             Total1 = Convert.ToDouble(nrAntal.Value) * Total1;
@@ -181,9 +246,11 @@ namespace Pizzeria
 
             result = Total1 + Total2;
 
+            pris = result - realTotal;
+
             //Imprestion.
 
-            txtTotal.Text = result.ToString("c2");
+            txtTotal.Text = pris.ToString("c2");
 
         }
 
