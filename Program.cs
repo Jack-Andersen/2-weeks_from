@@ -813,6 +813,75 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string zip = "23459";
+
+            //bool result = zip.All(char.IsNumber);
+
+            //if (zip.Length > 5 || zip.Contains(' ') || result == false)
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+            //Console.WriteLine(true);
+
+            //Console.ReadKey();
+
+
+
+            /* Vowel Replacer <--- 26th
+            
+            Create a function that replaces all the vowels in a string with a specified character.
+
+            ReplaceVowels("the aardvark", "#") ➞ "th# ##rdv#rk"
+
+            ReplaceVowels("minnie mouse", "?") ➞ "m?nn?? m??s?"
+
+            ReplaceVowels("shakespeare", "*") ➞ "sh*k*sp**r*"
+
+            All characters will be in lower case.
+
+            */
+
+            //string str = "abcd";
+            //string ch = "#";
+
+            //string s = "aeiou";
+            //string s2 = "";
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (s.IndexOf(str[i]) == -1)
+            //    {
+            //        s2 = s2 + str[i];
+            //    }
+            //    else s2 = s2 + ch;
+            //}
+            //Console.WriteLine(s2);
+
+            //Console.ReadKey();
+
+
+
+            /* Largest Swap <--- 27th
+            
+            Create a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
+
+            LargestSwap(27) ➞ false
+
+            LargestSwap(43) ➞ true
+
+            If 27 is our input, we should return false because swapping the digits gives us 72, and 72 > 27. On the other hand, swapping 43 gives us 34, and 43 > 34.
+
+            LargestSwap(14) ➞ false
+
+            LargestSwap(53) ➞ true
+
+            LargestSwap(99) ➞ true
+
+            Numbers with two identical digits (third example) should yield true (you can't do better).
+
+            */
+
+
 
         }
     }
