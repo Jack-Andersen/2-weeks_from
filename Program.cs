@@ -881,8 +881,113 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //int num = 43;
+
+            //int firstNum = num / 10;
+            //int lastNum = num % 10;
+
+            //if (firstNum >= lastNum)
+            //{
+            //    Console.WriteLine(true);
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+            //Console.ReadKey();
+
+
+
+            /* Cumulative Array Sum <--- 28th
+            
+            Create a function that takes an array of numbers and returns an array where each number is the sum of itself + all previous numbers in the array.
+
+            CumulativeSum([1, 2, 3]) ➞ [1, 3, 6]
+
+            CumulativeSum([1, -2, 3]) ➞ [1, -1, 2]
+
+            CumulativeSum([3, 3, -2, 408, 3, 3]) ➞ [3, 6, 4, 412, 415, 418]
+
+            Return an empty array if the input is an empty array.
+
+            */
+
+            //double[] arr = { 1, 2, 3, 4, 5 };
+
+            //double sum = 0;
+            //List<double> newArr = new List<double>();
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    sum += arr[i];
+            //    newArr.Add(sum);
+            //}
+
+            //Console.WriteLine(newArr.ToArray());
+
+            //Console.ReadKey();
+
+
+
+            /* Remove Every Vowel from a String <--- 29th
+             
+            Create a function that takes a string and returns a new string with all vowels removed.
+
+            RemoveVowels("I have never seen a thin person drinking Diet Coke.")
+            ➞ " hv nvr sn  thn prsn drnkng Dt Ck."
+
+            RemoveVowels("We're gonna build a wall!")
+            ➞ "W'r gnn bld  wll!"
+
+            RemoveVowels("Happy Thanksgiving to all--even the haters and losers!")
+            ➞ "Hppy Thnksgvng t ll--vn th htrs nd lsrs!"
+
+            "y" is not considered a vowel.
+            Expect a valid string for all test cases.
+
+            */
+
+            //string str = "We're gonna build a wall!";
+
+            //char[] vowelArr = new char[] { 'A', 'E', 'I', 'O', 'U' };
+            //char[] strChars = str.ToCharArray();
+            //string strWithoutVowels = "";
+            //foreach (char character in strChars)
+            //{
+            //    if (vowelArr.Contains(char.ToUpper(character)))
+            //        continue;
+
+            //    strWithoutVowels += character.ToString();
+            //}
+
+            //Console.WriteLine(strWithoutVowels);
+
+            //Console.ReadKey();
+
+
+
+            /* Purge and Organize <--- 30th
+            
+            Given an array of numbers, write a function that returns an array that...
+
+            Has all duplicate elements removed.
+            Is sorted from least value to greatest value.
+
+            UniqueSort([1, 2, 4, 3]) ➞ [1, 2, 3, 4]
+
+            UniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
+
+            UniqueSort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
+
+            N/A
+
+            */
+
 
 
         }
     }
 }
+
