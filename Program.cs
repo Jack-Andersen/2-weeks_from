@@ -828,7 +828,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Vowel Replacer <--- 26th
+            /* Vowel Replacer! <--- 26th
             
             Create a function that replaces all the vowels in a string with a specified character.
 
@@ -861,7 +861,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Largest Swap <--- 27th
+            /* Largest Swap! <--- 27th
             
             Create a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
 
@@ -900,7 +900,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Cumulative Array Sum <--- 28th
+            /* Cumulative Array Sum! <--- 28th
             
             Create a function that takes an array of numbers and returns an array where each number is the sum of itself + all previous numbers in the array.
 
@@ -931,7 +931,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Remove Every Vowel from a String <--- 29th
+            /* Remove Every Vowel from a String! <--- 29th
              
             Create a function that takes a string and returns a new string with all vowels removed.
 
@@ -968,7 +968,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Purge and Organize <--- 30th
+            /* Purge and Organize! <--- 30th
             
             Given an array of numbers, write a function that returns an array that...
 
@@ -980,6 +980,75 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
             UniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
 
             UniqueSort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
+
+            N/A
+
+            */
+
+            //double[] arr = { 1, 2, 3, 4, 5 };
+
+            //List<double> please = new List<double>();
+
+            //Array.Sort(arr);
+
+            //foreach (double d in arr)
+            //{
+            //    if (!please.Contains(d))
+            //    {
+            //        please.Add(d);
+            //    }
+
+            //}
+            //double[] result = please.ToArray();
+
+            //Console.WriteLine(result);
+
+            //Console.ReadKey();
+
+
+
+            /* An Introduction to the Map - Reduce Pattern! <--- 31th
+            
+            You will be implementing a basic case of the map-reduce pattern in programming. Given a vector stored as an array of numbers, find the magnitude of the vector. Use the standard distance formula for n-dimensional Cartesian coordinates.
+
+            Magnitude([3, 4]) ➞ 5
+
+            Magnitude([0, 0, -10]) ➞ 10
+
+            Magnitude([]) ➞ 0
+
+            Magnitude([2, 3, 6, 1, 8] ) ➞ 10.677078252031311
+
+            The array can have any length.
+            The input array will contain integers (except for empty array [] ➞ 0).
+            Write own .map() and .reduce() methods in your solution or use these query through LINQ (don't forget to connect the library System.Linq).
+
+            */
+
+            //int[] arr = { 1, 2, 3, 4, 5 };
+
+            //int productSum = 0;
+
+            //foreach (int num in arr)
+            //{
+            //    productSum += num * num;
+            //}
+
+            //Console.WriteLine(Math.Sqrt(productSum));
+
+            //Console.ReadKey();
+
+
+
+            /* Reverse the Case! <--- 32th
+            
+            Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
+
+            ReverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY"
+
+            ReverseCase("MANY THANKS") ➞ "many thanks"
+
+            ReverseCase("sPoNtAnEoUs") ➞ "SpOnTaNeOuS"
 
             N/A
 
