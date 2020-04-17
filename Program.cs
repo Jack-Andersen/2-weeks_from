@@ -1054,6 +1054,80 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string str = "Happy Birthday";
+
+            //string substring = "";
+
+            //foreach (char ch in str)
+            //{
+            //    if (char.IsLower(ch))
+            //        substring += ch.ToString().ToUpper();
+
+            //    else
+            //        substring += ch.ToString().ToLower();
+            //}
+
+            //Console.WriteLine(substring);
+
+            //Console.ReadKey();
+
+
+
+            /* Return the Index of All Capital Letters! <--- 33th
+            
+            Create a function that takes a single string as argument and returns an ordered array containing the indices of all capital letters in the string.
+
+            IndexOfCapitals("eDaBiT") ➞ [1, 3, 5]
+
+            IndexOfCapitals("eQuINoX") ➞ [1, 3, 4, 6]
+
+            IndexOfCapitals("determine") ➞ []
+
+            IndexOfCapitals("STRIKE") ➞ [0, 1, 2, 3, 4, 5]
+
+            IndexOfCapitals("sUn") ➞ [1]
+
+            Return an empty array if no uppercase letters are found in the string.
+            Special characters ($#@%) and numbers will be included in some test cases.
+
+            */
+
+            //string str = "eDaBit";
+
+            //string lcString = str.ToLower();
+
+            //char[] arr = str.ToCharArray();
+
+            //List<int> indexList = new List<int>();
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] != lcString[i])
+            //    {
+            //        indexList.Add(i);
+            //    }
+            //}
+
+            //Console.WriteLine(indexList.ToArray());
+
+            //Console.ReadKey();
+
+
+
+            /* Find the Largest Numbers in a Group of Arrays! <--- 34th
+
+            Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+
+            FindLargest([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
+
+            FindLargest([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]]) ➞ [-34, -2, 7]
+
+            FindLargest([[0.4321, 0.7634, 0.652], [1.324, 9.32, 2.5423, 6.4314], [9, 3, 6, 3]]) ➞ [0.7634, 9.32, 9]
+
+            Watch out for negative numbers.
+
+            */
+
 
 
         }
