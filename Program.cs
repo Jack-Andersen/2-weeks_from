@@ -1172,7 +1172,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
-            //Idk how to do this in C#, but it works in Edabit
+            //Idk how to do this in Visual Studio, but it works in Edabit
 
             //UTF8Encoding utf8 = new UTF8Encoding();
 
@@ -1194,6 +1194,75 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
             CountOnes(999) ➞ 8
 
             The input will always be a valid integer (number).
+
+            */
+
+            //int i = 100;
+
+            //int counter = 0;
+            //string binary = Convert.ToString(i, 2);
+
+            //foreach (char ch in binary)
+
+            //{
+            //    if (ch == '1')
+            //        counter++;
+            //}
+
+            //Console.WriteLine(counter);
+
+            //Console.ReadKey();
+
+
+
+            /* Check if a Number is Prime! <--- 38th
+            
+            Create a function that outputs true if a number is prime, and false otherwise.
+
+            isPrime(31) ➞ true
+
+            isPrime(18) ➞ false
+
+            isPrime(11) ➞ true
+
+            A prime number has no other factors except 1 and itself.
+            1 is not considered a prime number.
+
+            */
+
+            //int x = 31;
+
+            //bool ret = true;
+
+            //if (x == 1)
+
+            //    Console.WriteLine(false);
+
+            //for (int i = 2; i < x; i++)
+            //{
+            //    if (x % i == 0)
+            //        ret = false;
+            //}
+
+            //Console.WriteLine(ret);
+
+            //Console.ReadKey();
+
+
+
+            /* Is the Word an Isogram?! <--- 39th
+            
+            An isogram is a word that has no repeating letters, consecutive or nonconsecutive. Create a function that takes a string and returns either true or false depending on whether or not it's an "isogram".
+
+            IsIsogram("Algorism") ➞ true
+
+            IsIsogram("PasSword") ➞ false
+            // Not case sensitive.
+
+            IsIsogram("Consecutive") ➞ false
+
+            Ignore letter case (should not be case sensitive).
+            All test cases contain valid one word strings.
 
             */
 
