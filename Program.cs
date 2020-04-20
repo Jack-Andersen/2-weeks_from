@@ -1114,17 +1114,86 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
 
-            /* Find the Largest Numbers in a Group of Arrays! <--- 34th
+            /* Less Than 100?! <--- 34th
+             
+            Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
 
-            Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+            lessThan100(22, 15) ➞ true
+            // 22 + 15 = 37
 
-            FindLargest([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
+            lessThan100(83, 34) ➞ false
+            // 83 + 34 = 117
 
-            FindLargest([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]]) ➞ [-34, -2, 7]
+            N/A
 
-            FindLargest([[0.4321, 0.7634, 0.652], [1.324, 9.32, 2.5423, 6.4314], [9, 3, 6, 3]]) ➞ [0.7634, 9.32, 9]
+            */
 
-            Watch out for negative numbers.
+            //int a = 22;
+            //int b = 77;
+
+            //Console.WriteLine(a + b < 100);
+
+            //Console.ReadKey();
+
+
+
+            /* Divides Evenly! <--- 35th
+             
+            Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
+            
+            dividesEvenly(98, 7) ➞ true
+            # 98/7 = 14
+
+            dividesEvenly(85, 4) ➞ false
+            # 85/4 = 21.25
+
+            a will always be greater than or equal to b.
+
+            */
+
+            //int a = 98;
+            //int b = 7;
+
+            //Console.WriteLine(a % b == 0);
+
+            //Console.ReadKey();
+
+
+
+            /* UTF-8 BOM Text Encoding! <--- 36th
+            
+            Before Unicode became standard, text files and string data were encoded in different 8-bit based code pages, each different between Germany, Spain, Italy, Sweden, etc. Nowadays, UTF-8 is the mostly used standard for sending text in network communication and when saving text data to files.
+
+            UTF-8 encoded text files have a prefix that defines that the file is encoded in UTF-8. It is called a BOM (byte order mark). Use the .Net framework to determine the sequence for the UTF-8 BOM.
+
+            GetUTF8BOM() ➞ { 0xef, 0xbb, 0xbf } (byte array)
+
+            Use the class UTF8Encoding in the System.Text namespace.
+
+            */
+
+            //Idk how to do this in C#, but it works in Edabit
+
+            //UTF8Encoding utf8 = new UTF8Encoding();
+
+            //byte[] BOM = utf8.GetPreamble();
+            //Console.WriteLine(BOM);
+
+            //Console.ReadKey();
+
+
+
+            /* Count Ones in Binary Representation of Integer! <--- 37th
+            
+            Count the amount of ones in the binary representation of an integer. So for example, since 12 is '1100' in binary, the return value should be 2.
+
+            CountOnes(0) ➞ 0
+
+            CountOnes(100) ➞ 3
+
+            CountOnes(999) ➞ 8
+
+            The input will always be a valid integer (number).
 
             */
 
