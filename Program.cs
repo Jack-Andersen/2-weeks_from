@@ -1330,6 +1330,93 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string str = "1 2 3 4 5";
+
+            //string[] numbers = str.Split(' ');
+            //int high = Convert.ToInt32(numbers[0]);
+            //int low = Convert.ToInt32(numbers[0]);
+            //int result;
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    result = Convert.ToInt32(numbers[i]);
+
+            //    if (result < low)
+            //    {
+            //        low = result;
+            //    }
+            //    if (result > high)
+            //    {
+            //        high = result;
+            //    }
+            //}
+
+            //Console.WriteLine(high.ToString() + " " + low.ToString());
+
+            //Console.ReadKey();
+
+
+
+            /* Return the Middle Character(s) of a String! <--- 42th
+            
+            Create a function that takes a string and returns the middle character(s). If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.
+
+            GetMiddle("test") ➞ "es"
+
+            GetMiddle("testing") ➞ "t"
+
+            GetMiddle("middle") ➞ "dd"
+
+            GetMiddle("A") ➞ "A"
+
+            All test cases contain a single word (as a string).
+
+            */
+
+            //string str = "test";
+
+            //int middle;
+            //int charLength;
+
+
+            //if (str.Length % 2 == 0)
+            //{
+            //    charLength = 2;
+            //    middle = (str.Length / 2) - 1;
+
+            //    Console.WriteLine(str.Substring(middle, charLength));
+            //}
+            //else
+            //{
+            //    charLength = 1;
+            //    middle = str.Length / 2;
+            //    Console.WriteLine(str.Substring(middle, charLength));
+
+            //}
+
+            //Console.ReadKey();
+
+
+
+            /* Maskify the String! <--- 43th
+            
+            Usually when you sign up for an account to buy something, your credit card number, phone number or answer to a secret question is partially obscured in some way. Since someone could look over your shoulder, you don't want that shown on your screen. Hence, the website masks these strings.
+
+            Your task is to create a function that takes a string, transforms all but the last four characters into "#" and returns the new masked string.
+
+            Maskify("4556364607935616") ➞ "############5616"
+
+            Maskify("64607935616") ➞ "#######5616"
+
+            Maskify("1") ➞ "1"
+
+            Maskify("") ➞ ""
+
+            The maskify function must accept a string of any length.
+            An empty string should return an empty string (fourth example above).
+
+            */
+
 
 
         }
