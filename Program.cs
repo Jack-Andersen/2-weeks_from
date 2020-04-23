@@ -1450,9 +1450,77 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //int num = 7227;
+
+            //int rev = 0;
+            //int temp = num;
+            //while (num != 0)
+            //{
+            //    rev = rev * 10 + num % 10;
+            //    num /= 10;
+            //}
+            //if (temp == rev)
+            //    Console.WriteLine(true);
+            //else
+            //    Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+
+
+            /* Sort Numbers in Descending Order! <--- 45th
+            
+            Create a function that takes any nonnegative number as an argument and return it with it's digits in descending order. Descending order is when you sort from highest to lowest.
+
+            SortDescending(123) ➞ 321
+
+            SortDescending(2619805) ➞ 9865210
+
+            SortDescending(73065) ➞ 76530
+
+            You can expect non-negative numbers for all test cases.
+
+            */
+
+            //int num = 123;
+
+            //      string temp = num.ToString();
+            //char[] charr = temp.ToCharArray();
+            //Array.Sort(charr);
+            //string result = "";
+
+            //for (int i = temp.Length - 1; i >= 0; i--)
+            //{
+            //    result += charr[i];
+            //}           
+
+            //Console.WriteLine(Int32.Parse(result));
+
+            //Console.ReadKey();
+
+
+
+            /* ATM PIN Code Validation! <--- 46th
+            
+            ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. Your task is to create a function that takes a string and returns true if the PIN is valid and false if it's not.
+
+            ValidatePIN("1234") ➞ true
+
+            ValidatePIN("12345") ➞ false
+
+            ValidatePIN("a234") ➞ false
+
+            ValidatePIN("") ➞ false
+
+            Some test cases contain special characters.
+            Empty strings must return false.
+
+            */
+
 
 
         }
+
     }
 }
 
