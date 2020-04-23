@@ -1417,6 +1417,39 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string str = "4556364607935616";
+
+            //char[] chars = str.ToCharArray();
+
+            //for (int i = 0; i < chars.Length - 4; i++)
+            //{
+            //    chars[i] = '#';
+            //}
+
+            //Console.WriteLine(new string(chars));
+
+            //Console.ReadLine();
+
+
+
+            /* Is the Number Symmetrical?! <--- 44th
+            
+            Create a function that takes a number as an argument and returns true or false depending on whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.
+
+            IsSymmetrical(7227) ➞ true
+
+            IsSymmetrical(12567) ➞ false
+
+            IsSymmetrical(44444444) ➞ true
+
+            IsSymmetrical(9939) ➞ false
+
+            IsSymmetrical(1112111) ➞ true
+
+            N/A
+
+            */
+
 
 
         }
