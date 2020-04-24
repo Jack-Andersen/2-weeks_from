@@ -48,7 +48,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
         {
 
             /*Hurdle Jump! <--- 1st
-             
+
             Create a function that takes an array of hurdle heights and a jumper's jump height, and
             determine whether or not the hurdler can clear all the hurdles.
 
@@ -89,12 +89,12 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /*Convert Number to Corresponding Month Name! <--- 2nd
-             
+
             Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
             For example, if you're given 3 as input, your function should return "March", because March is the 3rd month.
 
             You can expect only integers ranging from 1 to 12 as test input.
-            
+
             */
 
             //int num = 1;
@@ -112,9 +112,9 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Count Instances of a Character in a String! <--- 3rd
-             
+
             Create a function that takes a character and a string as arguments and returns the number of times the character is found in the string.
-             
+
             CharCount("a", "edabit") ➞ 1
 
             CharCount("c", "Chamber of secrets") ➞ 1
@@ -211,7 +211,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* How Many Vowels? <--- 6th
-             
+
             Create a function that takes a string and returns the number (count) of vowels contained within it.
 
             CountVowels("Celebration") ➞ 5
@@ -241,7 +241,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Multiply by Length! <--- 7th
-             
+
             Create a function to multiply all of the values in an array by the amount of values in the given array.
 
             MultiplyByLength([2, 3, 1, 0]) ➞ [8, 12, 4, 0]
@@ -311,7 +311,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* To the Power of____! <--- 9th
-             
+
             Create a function that takes a base number and an exponent number and returns the calculation.
 
             СalculateExponent(5, 5) ➞ 3125
@@ -343,7 +343,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Find the Smallest and Biggest Numbers! <--- 10th
-              
+
             Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
 
             FindMinMax([1, 2, 3, 4, 5]) ➞ [1, 5]
@@ -353,7 +353,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
             FindMinMax([1]) ➞ [1, 1]
 
             All test arrays will have at least one element and are valid.
-             
+
             */
 
             //int[] arr = { 1, 2, 3, 4, 5};
@@ -368,7 +368,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Sort Numbers in Ascending Order! <--- 11th
-              
+
             Create a function that takes an array of numbers and returns a new array, sorted in ascending order (smallest to biggest).
 
             Sort the numbers array in ascending order.
@@ -401,7 +401,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Return the Factorial! <--- 12th
-              
+
             Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.
 
             Factorial(3) ➞ 6
@@ -430,7 +430,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Check if a String Contains only Identical Characters! <--- 13th
-              
+
             Write a function that returns true if all characters in a string are identical and false otherwise.
 
             isIdentical("aaaaaa") ➞ true
@@ -463,7 +463,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Shuffle the Name! <--- 14th
-             
+
             Create a function that accepts a string (of a persons first and last name) and returns a string with the first and last name swapped.
 
             NameShuffle("Donald Trump") ➞ "Trump Donald"
@@ -489,7 +489,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Reverse the Order of a String! <--- 15th
-             
+
             Create a function that takes a string as its argument and returns the string in reversed order.
 
             Reverse("Hello World") ➞ "dlroW olleH"
@@ -515,7 +515,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Calculate the Mean! <--- 16th
-             
+
             Create a function that takes an array of numbers and returns the mean value.
 
             Mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3]) ➞ 2.55
@@ -546,7 +546,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Remove Duplicates from an Array! <---17th
-             
+
             Create a function that takes an array of items, removes all duplicate items and returns a new array in the same sequential order as the old array (minus duplicates).
 
             RemoveDups([1, 0, 1, 0]) ➞ [1, 0]
@@ -576,7 +576,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Xs and Os, Nobody Knows! <--- 18th
-              
+
             Create a function that takes a string, checks if it has the same number of x's and o's and returns either true or false.
 
             Return a boolean value (true or false).
@@ -618,7 +618,7 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Equality of 3 Values! <--- 19th
-             
+
             Create a function that takes three integer arguments (a, b, c) and returns the number of equal values.
 
             Equal(3, 4, 3) ➞ 2
@@ -651,14 +651,14 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
             /* Retrieve the Subreddit! <--- 20th
-             
+
             Create a function to extract the name of the subreddit from its URL.
 
             SubReddit("https://www.reddit.com/r/funny/") ➞ "funny"
 
             SubReddit("https://www.reddit.com/r/relationships/") ➞ "relationships"
 
-S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyinteresting"
+    S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyinteresting"
 
             N/A
 
@@ -674,7 +674,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Alphabet Soup! <--- 21th
-             
+
             Create a function that takes a string and returns a string with its letters in alphabetical order.
 
             AlphabetSoup("hello") ➞ "ehllo"
@@ -704,7 +704,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Between Words! <--- 22th
-              
+
             Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted) word is found between first and last.
 
             isBetween("apple", "banana", "azure") ➞ true
@@ -736,9 +736,9 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Letters Only! <--- 23th
-             
+
             Write a function that removes any non-letters from a string, returning a well-known film title.
-             
+
             LettersOnly("R!=:~0o0./c&}9k`60=y") ➞ "Rocky"
 
             LettersOnly("^,]%4B|@56a![0{2m>b1&4i4") ➞ "Bambi"
@@ -766,7 +766,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Make a Circle with OOP! <--- 24th
-             
+
             Your task is to create a Circle constructor that creates a circle with a radius provided by an argument. The circles constructed must have two getters GetArea() (PIr^2) and GetPerimeter() (2PI*r) which give both respective areas and perimeter (circumference).
 
             For help with this class, I have provided you with a Rectangle constructor which you can use as a base example.
@@ -794,7 +794,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Valid Zip Code! <--- 25th
-             
+
             Zip codes consist of 5 consecutive digits. Given a string, write a function to determine whether the input is a valid zip code. A valid zip code is as follows:
 
             Must only contain numbers (no non-digits allowed).
@@ -829,7 +829,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Vowel Replacer! <--- 26th
-            
+
             Create a function that replaces all the vowels in a string with a specified character.
 
             ReplaceVowels("the aardvark", "#") ➞ "th# ##rdv#rk"
@@ -862,7 +862,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Largest Swap! <--- 27th
-            
+
             Create a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
 
             LargestSwap(27) ➞ false
@@ -901,7 +901,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Cumulative Array Sum! <--- 28th
-            
+
             Create a function that takes an array of numbers and returns an array where each number is the sum of itself + all previous numbers in the array.
 
             CumulativeSum([1, 2, 3]) ➞ [1, 3, 6]
@@ -932,7 +932,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Remove Every Vowel from a String! <--- 29th
-             
+
             Create a function that takes a string and returns a new string with all vowels removed.
 
             RemoveVowels("I have never seen a thin person drinking Diet Coke.")
@@ -969,7 +969,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Purge and Organize! <--- 30th
-            
+
             Given an array of numbers, write a function that returns an array that...
 
             Has all duplicate elements removed.
@@ -1008,7 +1008,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* An Introduction to the Map - Reduce Pattern! <--- 31th
-            
+
             You will be implementing a basic case of the map-reduce pattern in programming. Given a vector stored as an array of numbers, find the magnitude of the vector. Use the standard distance formula for n-dimensional Cartesian coordinates.
 
             Magnitude([3, 4]) ➞ 5
@@ -1041,7 +1041,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Reverse the Case! <--- 32th
-            
+
             Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
 
             ReverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY"
@@ -1074,7 +1074,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Return the Index of All Capital Letters! <--- 33th
-            
+
             Create a function that takes a single string as argument and returns an ordered array containing the indices of all capital letters in the string.
 
             IndexOfCapitals("eDaBiT") ➞ [1, 3, 5]
@@ -1115,7 +1115,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Less Than 100?! <--- 34th
-             
+
             Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
 
             lessThan100(22, 15) ➞ true
@@ -1138,9 +1138,9 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Divides Evenly! <--- 35th
-             
+
             Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
-            
+
             dividesEvenly(98, 7) ➞ true
             # 98/7 = 14
 
@@ -1161,7 +1161,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* UTF-8 BOM Text Encoding! <--- 36th
-            
+
             Before Unicode became standard, text files and string data were encoded in different 8-bit based code pages, each different between Germany, Spain, Italy, Sweden, etc. Nowadays, UTF-8 is the mostly used standard for sending text in network communication and when saving text data to files.
 
             UTF-8 encoded text files have a prefix that defines that the file is encoded in UTF-8. It is called a BOM (byte order mark). Use the .Net framework to determine the sequence for the UTF-8 BOM.
@@ -1184,7 +1184,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Count Ones in Binary Representation of Integer! <--- 37th
-            
+
             Count the amount of ones in the binary representation of an integer. So for example, since 12 is '1100' in binary, the return value should be 2.
 
             CountOnes(0) ➞ 0
@@ -1216,7 +1216,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Check if a Number is Prime! <--- 38th
-            
+
             Create a function that outputs true if a number is prime, and false otherwise.
 
             isPrime(31) ➞ true
@@ -1251,7 +1251,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Is the Word an Isogram?! <--- 39th
-            
+
             An isogram is a word that has no repeating letters, consecutive or nonconsecutive. Create a function that takes a string and returns either true or false depending on whether or not it's an "isogram".
 
             IsIsogram("Algorism") ➞ true
@@ -1284,7 +1284,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Find the Characters Counterpart Char Code! <--- 40th
-            
+
             Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
 
             Given that:
@@ -1313,7 +1313,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Return the Highest and Lowest Numbers! <--- 41th
-            
+
             Create a function that accepts a string of space separated numbers and returns the highest and lowest number (as a string).
 
             HighLow("1 2 3 4 5") ➞ "5 1"
@@ -1358,7 +1358,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Return the Middle Character(s) of a String! <--- 42th
-            
+
             Create a function that takes a string and returns the middle character(s). If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.
 
             GetMiddle("test") ➞ "es"
@@ -1399,7 +1399,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Maskify the String! <--- 43th
-            
+
             Usually when you sign up for an account to buy something, your credit card number, phone number or answer to a secret question is partially obscured in some way. Since someone could look over your shoulder, you don't want that shown on your screen. Hence, the website masks these strings.
 
             Your task is to create a function that takes a string, transforms all but the last four characters into "#" and returns the new masked string.
@@ -1433,7 +1433,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Is the Number Symmetrical?! <--- 44th
-            
+
             Create a function that takes a number as an argument and returns true or false depending on whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.
 
             IsSymmetrical(7227) ➞ true
@@ -1469,7 +1469,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* Sort Numbers in Descending Order! <--- 45th
-            
+
             Create a function that takes any nonnegative number as an argument and return it with it's digits in descending order. Descending order is when you sort from highest to lowest.
 
             SortDescending(123) ➞ 321
@@ -1501,7 +1501,7 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
 
             /* ATM PIN Code Validation! <--- 46th
-            
+
             ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. Your task is to create a function that takes a string and returns true if the PIN is valid and false if it's not.
 
             ValidatePIN("1234") ➞ true
@@ -1517,10 +1517,88 @@ S           ubReddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyi
 
             */
 
+            //string pin = "1234";
+
+            //if (pin.Length != 4 && pin.Length != 6)
+            //    Console.WriteLine(false);
+
+            //foreach (char character in pin)
+            //    if (!char.IsDigit(character))
+            //        Console.WriteLine(false);
+
+            //Console.WriteLine(true);
+
+            //Console.ReadKey();
+
+
+
+            /* Strange Pair! <--- 47th
+            
+            A pair of strings form a strange pair if both of the following are true:
+
+            The 1st string's first letter = 2nd string's last letter.
+            The 1st string's last letter = 2nd string's first letter.
+
+            Create a function that returns true if a pair of strings constitutes a strange pair, and false otherwise.
+
+            IsStrangePair("ratio", "orator") ➞ true
+            // "ratio" ends with "o" and "orator" starts with "o".
+            // "ratio" starts with "r" and "orator" ends with "r".
+
+            IsStrangePair("sparkling", "groups") ➞ true
+
+            IsStrangePair("bush", "hubris") ➞ false
+
+            IsStrangePair("", "") ➞ true
+
+            It should work on a pair of empty strings (they trivially share nothing).
+
+            */
+
+            //string str1 = "sparkling";
+            //string str2 = "groups";
+
+            //if (str1 == "" && str2 == "")
+            //{
+            //    Console.WriteLine(true);
+            //}
+
+            //if (str1 == "" || str2 == "")
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+            //if (str1[0] == str2[str2.Length - 1] &&
+            //  str1[str1.Length - 1] == str2[0])
+            //{
+            //    Console.WriteLine(true);
+            //}
+
+            //Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+
+
+            /* Pi to N Decimal Places! <--- 48th
+            
+            Given a number n, write a function that returns PI to n decimal places.
+
+            MyPi(5) ➞ 3.14159
+
+            MyPi(4) ➞ 3.1416
+
+            MyPi(15) ➞ 3.141592653589793
+
+            n will not be above 15, to keep this challenge simple.
+            Round up the last digit if the next digit in PI is greater or equal to 5 (see second example above).
+            The return value must be a number (add suffix -m to returning number), not a string.
+
+            */
+
 
 
         }
-
     }
 }
 
