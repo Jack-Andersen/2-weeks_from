@@ -1596,6 +1596,77 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int n = 3;
+
+            //decimal pi = 3.141592653589793m;
+
+            //pi = System.Math.Round(pi, n);
+
+            //Console.WriteLine(pi);
+
+            //Console.ReadLine();
+
+
+
+            /* Positive Count / Negative Sum! <--- 49th
+             
+            Create a function that takes an array of positive and negative numbers. Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers.
+
+            CountPosSumNeg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]) ➞ [10, -65]
+            // There are a total of 10 positive numbers.
+            // The sum of all negative numbers equals -65.
+
+            CountPosSumNeg([92, 6, 73, -77, 81, -90, 99, 8, -85, 34]) ➞ [7, -252]
+
+            CountPosSumNeg([91, -4, 80, -73, -28]) ➞ [2, -105]
+
+            CountPosSumNeg([]) ➞ []
+
+            If given an empty array, return an empty array: []
+            Cast sum to int, don't mind the remaining decimal places.
+            0 is not positive.
+
+            */
+
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //if (arr.Length == 0 || arr == null)
+            //{
+            //    Console.WriteLine(new int[2]);
+            //}
+            //int[] result = new int[] { 0, 0 };
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > 0)
+            //    {
+            //        result[0]++;
+            //    }
+            //    else
+            //    {
+            //        result[1] += (int)arr[i];
+            //    }
+            //}
+
+            //Console.WriteLine(result);
+
+            //Console.ReadLine();
+
+
+
+            /* Is the Phone Number Formatted Correctly?! <--- 50th
+            
+            Create a function that accepts a string and returns true if it's in the format of a proper phone number and false if it's not. Assume any number between 0-9 (in the appropriate spots) will produce a valid phone number. This is what a valid phone number looks like: (123) 456-7890
+
+            IsValidPhoneNumber("(123) 456-7890") ➞ true
+
+            IsValidPhoneNumber("1111)555 2345") ➞ false
+
+            IsValidPhoneNumber("098) 123 4567") ➞ false
+
+            Don't forget the space after the closing parentheses.
+
+            */
+
 
 
         }
