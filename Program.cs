@@ -1667,6 +1667,73 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string str = ("098 123 4567");
+
+            //if (str.Length == 14)
+            //{
+            //    if (str[0] == '(' && str[4] == ')' && str[9] == '-' && str[5] == ' ')
+            //    {
+            //        Console.WriteLine(true);
+            //    }
+            //    else Console.WriteLine(false);
+            //}
+            //else Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+
+
+            /* Format Number with Comma(s) Separating Thousands! <--- 51th
+            
+            Create a function that takes a number as an argument and returns a string formatted to separate thousands.
+
+            FormatNum(1000) ➞ "1,000"
+
+            FormatNum(100000) ➞ "100,000"
+
+            FormatNum(20) ➞ "20"
+
+            You can expect a valid number for all test cases.
+
+            */
+
+            //int num = 1000;
+
+            //string n = "";
+            //int counter = 0;
+            //if (num < 10)
+            //    Console.WriteLine("" + num);
+            //while (num > 0)
+            //{
+            //    n = "" + num % 10 + n;
+            //    counter++;
+            //    if (counter == 3)
+            //    {
+            //        n = "," + n;
+            //        counter = 0;
+            //    }
+            //    num = num / 10;
+            //}
+            //Console.WriteLine(n);
+
+            //Console.ReadKey();
+
+
+
+            /* Filter out Strings from an Array! <--- 52th
+            
+            Create a function that takes an array of non-negative integers and strings and return a new array without the strings.
+
+            FilterArray([1, 2, "a", "b"]) ➞ [1, 2]
+
+            ilterArray([1, "a", "b", 0, 15]) ➞ [1, 0, 15]
+
+            FilterArray([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
+
+            Zero is a non-negative integer.
+
+            */
+
 
 
         }
