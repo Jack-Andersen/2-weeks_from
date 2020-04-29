@@ -1734,6 +1734,95 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int[] arr = { 1, 2, 'a', 'b' };
+
+            //int count = 0;
+
+            //foreach (object current in arr)
+            //    if (current is int)
+            //        count++;
+
+            //int[] result = new int[count];
+            //count = 0;
+
+            //foreach (object current in arr)
+            //    if (current is int)
+            //        result[count++] = (int)current;
+
+            //Console.WriteLine(result);
+
+            //Console.ReadKey();
+
+
+
+            /* GCD of Two Numbers! <--- 53 th
+            
+            Write a function that returns the greatest common divisor (GCD) of two integers.
+
+            gcd(32, 8) ➞ 8
+
+            gcd(8, 12) ➞ 4
+
+            gcd(17, 13) ➞ 1
+
+            Both values will be positive.
+            The GCD is the largest factor that divides both numbers.
+
+            */
+
+            //int n1 = 32;
+            //int n2 = 8;
+
+            //int smaller;
+            //int larger;
+            //int GCD = 1;
+
+            //if (n1 >= n2)
+            //{
+            //    larger = n1;
+            //    smaller = n2;
+            //}
+            //else
+            //{
+            //    larger = n2;
+            //    smaller = n1;
+            //}
+
+            //for (int i = smaller; i > 0; i--)
+            //{
+            //    if (smaller % i == 0 && larger % i == 0)
+            //    {
+            //        GCD = i;
+            //        break;
+            //    }
+            //}
+
+            //Console.WriteLine(GCD);
+
+            //Console.ReadKey();
+
+
+
+            /* Get the Century! <--- 54th
+            
+            Create a function that takes in a year and returns the correct century.
+
+            Century(1756) ➞ "18th century"
+
+            Century(1555) ➞ "16th century"
+
+            Century(1000) ➞ "10th century"
+
+            Century(1001) ➞ "11th century"
+
+            Century(2005) ➞ "21st century"
+
+            All years will be between 1000 and 2010.
+            The 11th century is between 1001 and 1100.
+            The 18th century is between 1701-1800.
+
+            */
+
 
 
         }
