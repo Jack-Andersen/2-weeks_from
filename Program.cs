@@ -1823,6 +1823,108 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int year = 2005;
+
+            //string s = "";
+            //if (year / 1000 == year / 1000.0)
+            //{
+            //    s = (year / 100).ToString();
+            //}
+            //else
+            //{
+            //    s = (year / 100 + 1).ToString();
+            //}
+            //if (year > 2000)
+            //{
+            //    s = s + "st century";
+            //}
+            //else
+            //{
+            //    s = s + "th century";
+            //}
+
+
+            //Console.WriteLine(s);
+
+            //Console.ReadKey();
+
+
+
+            /* Basic E-Mail Validation! <--- 55th
+            
+            Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation.
+
+            The string must contain an @ character.
+            The string must contain a . character.
+            The @ must have at least one character in front of it.
+            e.g. "e@edabit.com" is valid while "@edabit.com" is invalid.
+            The . and the @ must be in the appropriate places.
+            e.g. "hello.email@com" is invalid while "john.smith@email.com" is valid.
+
+            If the string passes these tests, it's considered a valid email address.
+
+            ValidateEmail("@gmail.com") ➞ false
+
+            ValidateEmail("hello.gmail@com") ➞ false
+
+            ValidateEmail("gmail") ➞ false
+
+            ValidateEmail("hello@gmail") ➞ false
+
+            ValidateEmail("hello@edabit.com") ➞ true
+
+            Check the Tests tab to see exactly what's being evaluated.
+            You can solve this challenge with RegEx, but it's intended to be solved with logic.
+            Solutions using RegEx will be accepted but frowned upon :(
+
+            */
+
+
+            //string str = "@gmail.com";
+
+            //int x = 0;
+            //if (string.IsNullOrEmpty(str))
+            //{
+            //    Console.WriteLine(false);
+            //}
+            //if (str[0] == '@')
+            //{
+            //    Console.WriteLine(false);
+            //}
+            //foreach (char c in str)
+            //{
+            //    if (c == '@')
+            //    {
+            //        x++;
+            //    }
+            //    else if (c == '.' && x == 1)
+            //    {
+            //        Console.WriteLine(true);
+            //    }
+            //}
+
+            //Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+
+
+            /* Capitalize the First Letter of Each Word! <--- 56th
+            
+            Create a function that takes a string as an argument and converts the first character of each word to uppercase. Return the newly formatted string.
+
+            MakeTitle("This is a title") ➞ "This Is A Title"
+
+            MakeTitle("capitalize every word") ➞ "Capitalize Every Word"
+
+            MakeTitle("I Like Pizza") ➞ "I Like Pizza"
+
+            MakeTitle("PIZZA PIZZA PIZZA") ➞ "PIZZA PIZZA PIZZA"
+
+            You can expect a valid string for each test case.
+
+            */
+
 
 
         }
