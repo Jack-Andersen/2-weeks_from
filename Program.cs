@@ -1925,6 +1925,95 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string str = "This is a title";
+
+            //string newStr = "";
+            //bool wasSpace = true;
+
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (wasSpace == true)
+            //    {
+            //        newStr += (str[i].ToString()).ToUpper();
+            //        wasSpace = false;
+            //    }
+            //    else
+            //    {
+            //        newStr += str[i];
+            //    }
+            //    if (str[i] == ' ')
+            //    {
+            //        wasSpace = true;
+            //    }
+            //}
+
+            //Console.WriteLine(newStr);
+
+            //Console.ReadKey();
+
+
+
+            /* No Yelling! <--- 57th
+            
+            Create a function that transforms sentences ending with multiple question marks ? or exclamation marks ! into a sentence only ending with one.
+
+            NoYelling("What went wrong?????????") ➞ "What went wrong?"
+
+            NoYelling("Oh my goodness!!!") ➞ "Oh my goodness!"
+
+            NoYelling("I just!!! can!!! not!!! believe!!! it!!!") ➞ "I just!!! can!!! not!!! believe!!! it!"
+            // Only change repeating punctuation at the end of the sentence.
+
+            NoYelling("Oh my goodness!") ➞ "Oh my goodness!"
+            // Do not change sentences where there exists only one or zero exclamation marks/question marks.
+
+            NoYelling("I just cannot believe it.") ➞ "I just cannot believe it."
+
+            Only change ending punctuation - keep the exclamation marks or question marks in the middle of the sentence the same (see third example).
+            Don't worry about mixed punctuation (no cases that end in something like ?!??!).
+            Keep sentences that do not have question/exclamation marks the same.
+
+            */
+
+            //string phrase = "oh my goodness!!!";
+
+            //string result;
+
+            //if (phrase.EndsWith("?"))
+            //{
+            //    result = phrase.TrimEnd('?');
+            //    result += "?";
+            //    Console.WriteLine(result);
+            //}
+
+            //else if (phrase.EndsWith("!"))
+            //{
+            //    result = phrase.TrimEnd('!');
+            //    result += "!";
+            //    Console.WriteLine(result);
+            //}
+
+            //else
+            //    Console.WriteLine(phrase);
+
+            //Console.ReadKey();
+
+
+
+            /* Remove All Special Characters from a String! <--- 58th
+            
+            Create a function that takes a string, removes all "special" characters (e.g. !, @, #, $, %, ^, &, \, *, (, )) and returns the new string. The only non-alphanumeric characters allowed are dashes -, underscores _ and spaces.
+
+            RemoveSpecialCharacters("The quick brown fox!") ➞ "The quick brown fox"
+
+            RemoveSpecialCharacters("%fd76$fd(-)6GvKlO.") ➞ "fd76fd-6GvKlO"
+
+            RemoveSpecialCharacters("D0n$c sed 0di0 du1") ➞ "D0nc sed 0di0 du1"
+
+            N/A
+
+            */
+
 
 
         }
