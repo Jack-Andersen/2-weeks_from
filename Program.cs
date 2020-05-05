@@ -2014,6 +2014,72 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string str = "D0n$c sed 0di0 du1";
+
+            //char[] SplitChar = { '?', '`', '!', '@', '#', '$', '%', '^', '&', '\\', '*', '.', '(', ')', '[', ']', '=', ',', '~', '|', '<', '>', '+', '{', '}' };
+
+            //string[] strsplit = str.Split(SplitChar);
+
+            //string Output = "";
+            //for (int i = 0; i <= strsplit.Length - 1; i++)
+            //    Output += strsplit[i];
+
+            //Console.WriteLine(Output);
+
+            //Console.ReadKey();
+
+
+
+            /* Reverse Coding Challenge #6! <--- 59th
+            
+            This is a reverse coding challenge. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.
+
+            Your task is to create a function that, when fed the inputs below, produces the sample outputs shown.
+
+            ysteryFunc(152) ➞ 10
+
+            MysteryFunc(832) ➞ 48
+
+            MysteryFunc(19) ➞ 9
+
+            MysteryFunc(133) ➞ 9
+
+            N/A
+
+            */
+
+            //int num = 152;
+
+            //int answer = 1;
+            //int len = num.ToString().Length;
+
+            //for (int i = 0; i < len; i++)
+            //{
+            //    answer = answer * (num % 10);
+            //    num = num / 10;
+            //}
+
+            //Console.WriteLine(answer);
+
+            //Console.ReadKey();
+
+
+
+            /* Compounding Letters! <--- 60th
+             
+            Create a function that takes a string and returns a new string with each new character accumulating by +1. Separate each set with a dash.
+
+            Accum("abcd") ➞ "A-Bb-Ccc-Dddd"
+
+            Accum("RqaEzty") ➞ "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+
+            Accum("cwAt") ➞ "C-Ww-Aaa-Tttt"
+
+            Capitalize the first letter of each set.
+            All tests contain valid strings with alphabetic characters (a-z, A-Z).
+
+            */
+
 
 
         }
