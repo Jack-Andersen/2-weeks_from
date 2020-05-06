@@ -2080,6 +2080,94 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string str = "abcd";
+
+            //string temp = "";
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    for (int j = 1; j <= i + 1; j++)
+            //    {
+            //        if (j == 1)
+            //        {
+            //            temp += str[i].ToString().ToUpper();
+            //        }
+            //        else
+            //        {
+            //            temp += str[i].ToString().ToLower();
+            //        }
+            //    }
+            //    if (i != str.Length - 1)
+            //    {
+            //        temp += '-';
+            //    }
+            //}
+
+            //Console.WriteLine(temp);
+
+            //Console.WriteLine();
+
+
+
+            /* The Museum of Incredibly DULL Things! <--- 61th
+            
+            A museum wants to get rid of some exhibitions. Katya, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and removes the one with the lowest rating. Just as she finishes rating the exhibitions, she's called off to an important meeting. She asks you to write a program that tells her the ratings of the items after the lowest one is removed.
+
+            Create a function that takes an array of integers and removes the smallest value.
+
+            RemoveSmallest([1, 2, 3, 4, 5] ) ➞ [2, 3, 4, 5]
+
+            RemoveSmallest([5, 3, 2, 1, 4]) ➞ [5, 3, 2, 4]
+
+            RemoveSmallest([2, 2, 1, 2, 1]) ➞ [2, 2, 2, 1]
+
+            Don't change the order of the left over items.
+            If you get an empty array, return an empty array: [] ➞ [].
+            If there are multiple items with the same value, remove item with lower index (3rd example).
+
+            */
+
+            //int[] values = { 2, 2, 1, 2, 1 };
+
+            //if (values.Length == 0)
+            //{
+            //    Console.WriteLine(values);
+            //}
+
+            //int toRemove = values.Min();
+            //bool removed = false;
+            //List<int> result = new List<int>();
+
+            //for (int i = 0; i < values.Length; i++)
+            //{
+            //    if (removed == false && values[i] == toRemove)
+            //    {
+            //        removed = true;
+            //        continue;
+            //    }
+
+            //    result.Add(values[i]);
+            //}
+
+            //Console.WriteLine(result.ToArray());
+
+            //Console.ReadKey();
+
+
+
+            /* Reverse the Order of Words with Five Letters or More! <--- 62th
+            
+            Write a function that takes a string of one or more words as an argument and returns the same string, but with all five or more letter words reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+            Reverse("Reverse") ➞ "esreveR"
+
+            Reverse("This is a typical sentence.") ➞ "This is a lacipyt .ecnetnes"
+
+            Reverse("The dog is big.") ➞ "The dog is big."
+
+            ou can expect a valid string to be provided for each test case.
+
+            */
+
 
 
         }
