@@ -2259,6 +2259,79 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int[] coordinates = { 10, 10 };
+
+            //int x = Math.Abs(coordinates[0]);
+            //int y = Math.Abs(coordinates[1]);
+            //int total = x + y;
+            //int cnt = 0;
+
+            //for (int i = 1; i <= total; i++)
+            //    if ((i % 5) == 0)
+            //        if (total > 5)
+            //            if (i == total)
+            //                break;
+            //            else
+            //                cnt++;
+            //total = total + cnt;
+
+            //Console.WriteLine(total);
+
+            //Console.ReadLine();
+
+
+
+            /* Factorial Number! <--- 65th
+            
+            Create a Fact method that receives a non-negative integer and returns the factorial of that number.
+
+            Fact(1) ➞ 1
+
+            Fact(3) ➞ 6
+
+            Fact(6) ➞ 720
+
+            Consider that 0! = 1.
+            You should return a long data type number.
+
+            */
+
+            //int n = 3;
+
+            //long total = 1;
+            //for (int i = n; i > 0; i--)
+            //{
+            //    total *= i;
+            //}
+
+            //Console.WriteLine(total);
+
+            //Console.ReadLine();
+
+
+
+            /* Switcharoo! <--- 66th
+            
+            Create a function that takes a string and returns a new string with its first and last characters swapped, except under three conditions:
+
+            If the length of the string is less than two, return "Incompatible.".
+            If the argument is not a string, return "Incompatible.".
+            If the first and last characters are the same, return "Two's a pair.".
+
+            FlipEndChars("Cat, dog, and mouse.") ➞ ".at, dog, and mouseC"
+
+            FlipEndChars("ada") ➞ "Two's a pair."
+
+            FlipEndChars("Ada") ➞ "adA"
+
+            FlipEndChars("z") ➞ "Incompatible."
+
+            FlipEndChars([1, 2, 3]) ➞ "Incompatible."
+
+            Tests are case sensitive (e.g. "A" and "a" are not the same character).
+
+            */
+
 
 
         }
