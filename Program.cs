@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using System.Data.Common;
 
 namespace Edabit__the_2_weeks_we_re_not_in_school
 {
@@ -2310,25 +2311,87 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
 
 
-            /* Switcharoo! <--- 66th
+            /* Check if the String is a Palindrome! <--- 66th
             
-            Create a function that takes a string and returns a new string with its first and last characters swapped, except under three conditions:
+            A palindrome is a word, phrase, number or other sequence of characters which reads the same backward or forward, such as madam or kayak.
 
-            If the length of the string is less than two, return "Incompatible.".
-            If the argument is not a string, return "Incompatible.".
-            If the first and last characters are the same, return "Two's a pair.".
+            Write a function that takes a string and determines whether it's a palindrome or not. The function should return a boolean (true or false value).
 
-            FlipEndChars("Cat, dog, and mouse.") ➞ ".at, dog, and mouseC"
+            IsPalindrome("Neuquen") ➞ true
 
-            FlipEndChars("ada") ➞ "Two's a pair."
+            IsPalindrome("Not a palindrome") ➞ false
 
-            FlipEndChars("Ada") ➞ "adA"
+            IsPalindrome("A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!") ➞ true
 
-            FlipEndChars("z") ➞ "Incompatible."
+            Should be case insensitive.
+            Special characters (punctuation or spaces) should be ignored.
 
-            FlipEndChars([1, 2, 3]) ➞ "Incompatible."
+            */
 
-            Tests are case sensitive (e.g. "A" and "a" are not the same character).
+            //string str = "Neuquen";
+
+            //str = str.ToLower();
+            //int start = 0;
+            //int end = str.Length - 1;
+
+            //while (!(start >= end))
+            //{
+
+            //    char a = str[start];
+            //    char b = str[end];
+            //    if (!((a >= 67 && a <= 90) || (a >= 97 && a <= 122)))
+            //    {
+            //        start++;
+            //        continue;
+            //    }
+
+            //    if (!((b >= 67 && b <= 90) || (b >= 97 && b <= 122)))
+            //    {
+            //        end--;
+            //        continue;
+            //    }
+
+            //    if (str[start] != str[end])
+            //        Console.WriteLine(false);
+            //    start++;
+            //    end--;
+            //}
+
+            //Console.WriteLine(true);
+
+            //Console.ReadLine();
+
+
+
+
+            /* Wurst Is Better! <--- 67! 
+            
+            Wurst is the best. Create a function that takes a string and replaces every mention of any type of sausage with the German word "Wurst," unless—of course—the sausage is already a type of German "Wurst" (i.e. "Bratwurst", see below), then leave the sausage name unchanged.
+
+            German Wursts	Convert to Wurst
+            Bratwurst	Kielbasa
+            Kochwurst	Chorizo
+            Leberwurst	Moronga
+            Mettwurst	Salami
+            Rostbratwurst	Sausage
+            ~	Andouille
+            ~	Naem
+            ~  	Merguez
+            ~	Gurka
+            ~	Snorkers
+            ~	Pepperoni
+
+            Append sausages from the "Convert to Wurst" column with "wurst".
+            Do not replace any German sausage with the word "Wurst".
+            The word "Wurst" must be title case.
+
+            WurstIsBetter("I like chorizos, but not sausages") ➞ "I like Wursts, but not Wursts"
+
+            WurstIsBetter("sich die Wurst vom Brot nehmen lassen") ➞ "sich die Wurst vom Brot nehmen lassen"
+
+            WurstIsBetter("Bratwurst and Rostbratwurst are sausages") ➞ "Bratwurst and Rostbratwurst are Wursts"
+
+            All German sausage names contain the word "wurst".
 
             */
 
