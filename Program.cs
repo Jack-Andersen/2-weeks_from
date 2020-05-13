@@ -2438,6 +2438,86 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //int num = 6;
+
+            //int sum = 0;
+            //for (int i = num / 2; i >= 1; i--)
+            //{
+            //    if (num % i == 0)
+            //    {
+            //        sum += i;
+            //    }
+            //}
+
+            //if (sum == num)
+            //{
+            //    Console.WriteLine(true);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+            //Console.ReadKey();
+
+
+
+            /* Check for Anagrams! <--- 69th
+            
+            Create a function that takes two strings and returns either true or false depending on whether they're anagrams or not.
+
+            IsAnagram("cristian", "Cristina") ➞ true
+
+            IsAnagram("Dave Barry", "Ray Adverb") ➞ true
+
+            IsAnagram("Nope", "Note") ➞ false
+
+            Should be case insensitive.
+
+            */
+
+            //string str1 = "cristian";
+            //string str2 = "Dave Barry";
+
+            //if (str1.Length == str2.Length)
+            //{
+            //    for (int i = 0; i < str1.Length; i++)
+            //    {
+            //        bool test = false;
+            //        for (int j = 0; j < str2.Length; j++)
+            //        {
+            //            if (str1.ToLower()[i] == str2.ToLower()[j])
+            //                test = true;
+            //        }
+            //        if (test == false)
+            //            Console.WriteLine(false);
+            //    }
+
+            //    Console.WriteLine(true);
+
+            //}
+            //else
+            //    Console.WriteLine(false);
+
+            //Console.ReadKey();
+
+
+
+            /* AlTeRnAtInG cApS! <--- 70th
+            
+            Create a function that alternates the case of the letters in a string (known as Spongecase).
+
+            AlternatingCaps("Hello") ➞ "HeLlO"
+
+            AlternatingCaps("How are you?") ➞ "HoW aRe YoU?"
+
+            AlternatingCaps("OMG this website is awesome!") ➞ "OmG tHiS wEbSiTe Is AwEsOmE!"
+
+            The first letter should always be UPPERCASE.
+            Ignore spaces.
+
+            */
+
 
 
         }
