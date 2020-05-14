@@ -2518,6 +2518,84 @@ namespace Edabit__the_2_weeks_we_re_not_in_school
 
             */
 
+            //string str = "Hello";
+
+            //string result = "";
+            //bool uppercase = true;
+
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    if (str[i] == ' ')
+            //    {
+            //        result += str[i];
+            //        continue;
+            //    }
+            //    else if (uppercase)
+            //    {
+            //        result += char.ToUpper(str[i]);
+            //    }
+            //    else
+            //    {
+            //        result += char.ToLower(str[i]);
+            //    }
+
+            //    uppercase = !uppercase;
+
+            //}
+
+            //Console.WriteLine(result);
+
+            //Console.ReadKey();
+
+
+
+            /* Oddish vs. Evenish! <--- 71th
+            
+            Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
+
+            For example, OddishOrEvenish(121) should return "Evenish", since 1 + 2 + 1 = 4. OddishOrEvenish(41) should return "Oddish", since 4 + 1 = 5.
+
+            ddishOrEvenish(43) ➞ "Oddish"
+
+            OddishOrEvenish(373) ➞ "Oddish"
+
+            OddishOrEvenish(4433) ➞ "Evenish"
+
+            N/A
+
+            */
+
+            //int num = 43;
+
+            //int total = 0;
+
+            //while (num > 0)
+            //{
+            //    total += num % 10;
+            //    num /= 10;
+            //}
+            //if (total % 2 == 0) { Console.WriteLine("Evenish"); }
+            //else { Console.WriteLine("Oddish"); }
+
+            //Console.WriteLine();
+
+
+
+            /* Capitalize the Names! <--- 72th
+            
+            Create a function that takes an array of names and returns an array where only the first letter of each name is capitalized.
+
+            CapMe(["mavis", "senaida", "letty"]) ➞ ["Mavis", "Senaida", "Letty"]
+
+            CapMe(["samuel", "MABELLE", "letitia", "meridith"]) ➞ ["Samuel", "Mabelle", "Letitia", "Meridith"]
+
+            CapMe(["Slyvia", "Kristal", "Sharilyn", "Calista"]) ➞ ["Slyvia", "Kristal", "Sharilyn", "Calista"]
+
+            Don't change the order of the original array.
+            Notice in the second example above, "MABELLE" is returned as "Mabelle".
+
+            */
+
 
 
         }
